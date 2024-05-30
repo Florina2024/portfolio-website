@@ -18,19 +18,27 @@ function About() {
             <div className={styles.aboutItemText}>
               <h3>FrontEnd Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                Welcome to my personal webpage! I am a software developer with a
+                strong background in finance. I have a passion for learning new
+                technologies and applying my skills to solve complex problems.
+                With a comprehensive education in both finance and software
+                development, I bring a unique perspective to the field of
+                technology.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src="/uiIcon.png" alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
-              <p>
-                I have designed multiple landing pages and have created design
-                systems as well
-              </p>
+              <h3>Skills</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>REACT</li>
+                <li>RESPONSIVE DESIGN</li>
+                <li>PACKAGE MANAGERS</li>
+              </ul>
             </div>
           </li>
         </ul>

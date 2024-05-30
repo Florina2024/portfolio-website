@@ -58,6 +58,14 @@
   background-size: 100% 100%;
 }
 
+.aboutItemText {
+  padding-left: 20px;
+}
+
+.aboutItemText li {
+  font-size: 25px;
+}
+
 .aboutItem h3 {
   font-size: 25px;
   font-weight: 600;

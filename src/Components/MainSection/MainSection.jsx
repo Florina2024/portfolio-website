@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./MainSection.module.css";
-import { getImageUrl } from "../../utils";
+import photo from "../../assets/hero/cvphotoFlorina.jpg";
 
 function MainSection() {
   return (
@@ -8,11 +8,13 @@ function MainSection() {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Florina!</h1>
         <p className={styles.description}>
-          I'm a front end developer with xxx years of experience in web
-          development. I've worked on a variety of projects for clients in the
-          retail, travel, and healthcare industries. I'm passionate about
-          creating great user experiences and have a strong understanding of
-          usability and accessibility standards.
+          Passionate and dedicated professional with a background in finance and
+          a clear objective to excel in frontend development. Skilled in
+          JavaScript programming, HTML, CSS, React, Git, Bootstrap and software
+          engineering principles. Committed to leveraging my expertise to create
+          engaging and user-friendly web experiences. Seeking opportunities to
+          contribute to innovative frontend projects, enhance technical skills
+          and advance career in frontend development.
         </p>
         <a
           className={styles.contactBtn}
@@ -21,7 +23,7 @@ function MainSection() {
           Contact Me
         </a>
       </div>
-      <img src="/heroImage.png" alt="her image" className={styles.heroImg} />
+      <img src={photo} alt="her image" className={styles.heroImg} />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>

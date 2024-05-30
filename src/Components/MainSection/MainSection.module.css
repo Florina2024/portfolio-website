@@ -52,13 +52,14 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 30%;
   z-index: 1;
-
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  border-radius: 50px;
+  padding-left: 30px;
 }
 
 @keyframes floating {

@@ -24,7 +24,7 @@ function Contact() {
         </li>
         <li className={styles.link}>
           <img src={"/githubIcon.png"} alt="github icon" />
-          <a href="https://github.com/Ina1989">github.florinajemisha</a>
+          <a href="https://github.com/Florina2024">github.florinajemisha</a>
         </li>
       </ul>
     </footer>
